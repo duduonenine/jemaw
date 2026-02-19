@@ -14,6 +14,7 @@ body {
 }
 
 .login-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     background: linear-gradient(rgba(0, 119, 138, 0.3), rgba(0, 119, 138, 0.3)), 
                 url('dudu.jpg');
     background-size: cover;
