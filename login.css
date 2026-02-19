@@ -14,11 +14,12 @@ body {
 }
 
 .login-container {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     background: linear-gradient(rgba(0, 119, 138, 0.3), rgba(0, 119, 138, 0.3)), 
                 url('dudu.jpg');
     background-size: cover;
     background-position: center;
+    width: 50%;
+    height: 200px;
     color: white;
     padding: 25px;
     border-radius: 20px;
