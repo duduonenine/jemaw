@@ -67,11 +67,6 @@ main {
     border-top: 2px solid red;
 }
 
-.thanks{
-    text-align: center;
-    font-size: 30px;
-}
-
 .thanks-card{
     padding: 7px;
     background: linear-gradient(rgba(0, 119, 138, 0.3), rgba(0, 119, 138, 0.3)), 
