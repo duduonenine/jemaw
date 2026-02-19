@@ -1,0 +1,51 @@
+body {
+    background: url('dudu.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    height: 90vh;
+    margin: 0;
+    font-family: Sans-Serif;
+}
+
+.login-container {
+    background: linear-gradient(rgba(0, 119, 138, 0.3), rgba(0, 119, 138, 0.3)), 
+                url('dudu.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 25px;
+    border-radius: 20px;
+    border-left: 4px solid gold;
+    border-right: 4px solid gold;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+
+input {
+    display: block;
+    width: 250px;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 20px;
+    background: #ffeff4;
+    border: none;
+}
+
+button {
+    font-weight: bold;
+    width: 60%;
+    padding: 7px;
+    background: white; /* A nice "Dragon Fruit" pink/red */
+    color: gray;
+    border: none;
+    margin: 10px;
+    margin-block-start: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+

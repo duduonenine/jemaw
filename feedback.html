@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jemaw feedback | DMU SE</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+  <nav class="navbar">
+        <div class="logo">ጀማው trip</div>
+        <ul class="links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="feedback.html" class="active">feedback</a></li>
+            <li><a href="login.html">Logout</a></li>
+        </ul>
+    </nav>
+  <main>
+    <div class="banner"><h4>IF YOU HAVE ANY RECOMMENDATIONS PLEASE LET US KNOW !</h4></div>
+    
+    <div class="feedback-container">
+        <form id="feedbackForm">
+            <input type="text" name="feedback" placeholder="waiting for recommendations" required>
+            <button type="submit" id="feedbackBtn">send</button>
+        </form>
+    </div>
+
+    <script>
+        // Simple redirect to your new Home page
+        document.getElementById('feedbackForm').onsubmit = function(e) {
+            e.preventDefault(); 
+            window.location.href = "thanks.html"; 
+        };
+    </script>
+    
+    </main>
+    <footer class="main-footer">
+        <p>&copy; 2017 Jemaw Crew | DMU Software Engineering</p>
+    </footer>
+</body>
+</html>
