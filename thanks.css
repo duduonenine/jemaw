@@ -93,5 +93,4 @@ main {
     border-left: 4px solid red;
     border-right: 4px solid blue;
     box-shadow: 0 5px 20px rgba(0,0,0,0.5);
-    transition: margin 0.2s;
 }
