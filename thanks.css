@@ -70,11 +70,6 @@ main {
 .thanks{
     text-align: center;
     font-size: 30px;
-    transition: transform 0.4s;
-}
-
-.thanks:active{
-  transform: scale(2.3);
 }
 
 .thanks-card{
